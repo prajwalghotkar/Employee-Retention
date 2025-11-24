@@ -21,11 +21,11 @@
 ---
 ##### Systematic Step-by-Step Process
 - **Step 1**: Import Libraries and Data
-  - Prajwal imported libraries like pandas, numpy, seaborn, matplotlib, and scikit-learn.
+  - Imported libraries like pandas, numpy, seaborn, matplotlib, and scikit-learn.
   - The employee dataset was loaded for analysis.
 
 - **Step 2**: Basic Data Checks
-  - Prajwal explored the dataset using .info() and .describe() to understand the shape and summary.
+  - Explored the dataset using .info() and .describe() to understand the shape and summary.
 
 - **Step 3**: Data Preparation & Cleaning
   - Converted categorical columns ‘Attrition’ and ‘Overtime’ to integers for modeling.
@@ -63,7 +63,7 @@
   - Performed Min-Max scaling for feature normalization.
 
 - **Step 6**: Model Development & Evaluation
-  - Prajwal split the data into training and testing sets.
+  - Split the data into training and testing sets.
   - Built and tested three models: Logistic Regression, Support Vector Machine (SVM), and XGBoost classifier.
   - Evaluated models using confusion matrices, classification reports, and accuracy scores—achieving approximately 90% accuracy with logistic regression.
 
